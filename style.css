@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: #e6f2e6; /* 淡绿色地图背景 */
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  padding: 30px 10px 20px;
+  background-color: #cde7cd;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #2e5c3f;
+}
+
+#search {
+  width: 90%;
+  max-width: 500px;
+  padding: 10px 15px;
+  margin-top: 15px;
+  font-size: 16px;
+  border: 2px solid #8fbf8f;
+  border-radius: 8px;
+  outline: none;
+}
+
+.map-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.fishing-spot {
+  background-color: #ffffff;
+  border: 1px solid #b5d6b5;
+  border-left: 6px solid #4CAF50;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.fishing-spot h3 {
+  margin: 0 0 6px;
+  font-size: 20px;
+  color: #2d6a4f;
+}
+
+.fishing-spot p {
+  margin: 0 0 10px;
+  color: #555;
+}
+
+.fishing-spot a {
+  color: #1e90ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.fishing-spot a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .map-container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  #search {
+    font-size: 14px;
+  }
+
+  .fishing-spot h3 {
+    font-size: 18px;
+  }
+}
